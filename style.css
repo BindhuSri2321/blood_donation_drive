@@ -1,0 +1,45 @@
+/* Custom Styles for Blood Donation Drive */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light background */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important; /* Standard Red */
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.hero-bg {
+    background: linear-gradient(rgba(220, 53, 69, 0.8), rgba(220, 53, 69, 0.8)), url('images/blood_bg.jpg'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+/* Ensure map takes the full height defined in nearby_donors.php */
+#map {
+    border: 1px solid #ccc;
+}
